@@ -1,0 +1,160 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+@font-face {
+    font-family: EBGaramond-Italic;
+    src: url(../fonts/EBGaramond-Italic.woff2) format("woff2"), url(../fonts/EBGaramond-Italic.woff) format("woff");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.image_1 {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: 0px auto 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px 3px rgb(94, 184, 240);
+}
+.image {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0px auto 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 3px coral;
+}
+.title {
+    font-family: Caveat;
+    font-weight: 700;
+    font-size: 90px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkcyan;
+    text-shadow: 3px 3px 5px bisque;
+}
+.text_header {
+    font-family: Caveat;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+    width: 1200px;
+    margin: 0px auto 20px;
+    color: darkgoldenrod;
+    text-shadow: 3px 3px 5px bisque;
+    border-top: 1px dashed burlywood;
+    border-bottom: 1px dashed burlywood;
+}
+.title_menu {
+    font-family: Caveat;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    color: darkkhaki;
+}
+.menu {
+    margin-bottom: 40px;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 40px;
+}
+.link {
+    font-family: EBGaramond-Italic;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    color: darkolivegreen;
+    background-color: rgb(243, 207, 160);
+    padding: 3px 10px;
+    border-radius: 10px;
+    box-shadow: inset -1px -1px 5px 1px rgba(36, 35, 35, 0.452), 1px 1px 10px 1px rgba(68, 67, 67, 0.582);
+}
+.text {
+    font-family: caveat;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    width: 1200px;
+    margin: 0px auto 20px;
+    color: darkslategrey;
+}
+.block_text_1 {
+    font-family: EBGaramond-Italic;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    width: 1200px;
+    padding: 20px;
+    margin: 0px auto 20px;
+    background-color: rgba(210, 212, 248, 0.555);
+    border: 1px solid hotpink;
+}
+.block_text_2 {
+    font-family: EBGaramond-Italic;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    width: 1200px;
+    padding: 20px;
+    margin: 0px auto 20px;
+    background-color: rgba(210, 212, 248, 0.555);
+    border: 1px dotted hotpink;
+}
+.block_text_3 {
+    font-family: EBGaramond-Italic;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    width: 1200px;
+    padding: 20px;
+    margin: 0px auto 20px;
+    background-color: rgba(210, 212, 248, 0.555);
+    border: 1px dashed hotpink;
+}
+.block_text_4 {
+    font-family: EBGaramond-Italic;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    width: 1200px;
+    padding: 20px;
+    margin: 0px auto 20px;
+    background-color: rgba(210, 212, 248, 0.555);
+    outline: 4px double hotpink;
+    opacity: 0.5;
+}
+h2 {
+    font-family: Caveat;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+span {
+    font-family: caveat;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+.footer_title {
+    text-align: center;
+    color: cadetblue;
+}
